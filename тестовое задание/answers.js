@@ -1,0 +1,9 @@
+const ANSWERS = [
+    `<div class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus itaque facere nostrum eveniet numquam reprehenderit! Eius consectetur commodi, voluptates nesciunt amet sed, at accusamus corrupti voluptate, impedit ex doloremque atque?</div`,
+    `<div class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis debitis at quod doloribus, hic sunt fugiat quia ex. Minus perspiciatis, facilis necessitatibus amet iste exercitationem? Iure, ea ratione? Illum.`,
+    `<div class="answer">В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.`,
+    `<div class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, dignissimos repudiandae. Cupiditate, sint accusantium itaque iure hic rem natus repellat totam accusamus consequatur iste aut, quis similique, repellendus quia qui.`,
+    `<div class="answer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure cumque maxime nostrum molestiae explicabo at minima eum laudantium sequi aut vel eligendi incidunt, qui nesciunt nulla deleniti, molestias, eveniet repellat?`,
+    `<div class="answer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa maxime sint officia, vitae quis corporis libero delectus ducimus distinctio aut laboriosam accusamus, quidem neque voluptatibus dolorum minima possimus, eaque quas.`,
+    `<div class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum error quas debitis ab fugiat voluptas, provident nobis voluptatum culpa sit repellat dolore dolores porro voluptate, iusto, rem temporibus ipsum doloremque?`
+]

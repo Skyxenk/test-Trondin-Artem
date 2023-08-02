@@ -1,0 +1,450 @@
+:root {
+    --textWhite: rgba(255, 255, 255, 1);
+    --textBlack: rgba(25, 28, 31, 1);
+    --textGray: rgba(94, 100, 106, 1);
+    --backgroundGray: rgba(246, 248, 250, 1);
+}
+
+html, body {
+    font-family: Graphik LCG;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url(img/header.png) no-repeat;
+}
+
+a {
+    list-style-type: none;
+    color: var(--textWhite);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    color: var(--textWhite);
+    background: rgba(42, 108, 234, 0.8);
+    height: 960px;
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.left {
+    display: flex;
+    margin-left: 352px;
+    margin-top: 28px;
+    width: 120px;
+    height: 24px;
+}
+
+.right {
+    display: flex;
+    width: hug(464px);
+    height: hug(28px);
+    margin-top: 26px;
+    margin-left: 629px;
+    gap: 24px;
+}
+
+.frame {
+    width: hug(141px);
+    height: hug(28px);
+}
+
+.cover {
+    text-align: center;
+}
+
+.menu2 {
+    margin-top: 233px;
+    margin-bottom: 313px;
+    justify-content: center;
+}
+
+#text {
+    margin: auto;
+    width: 748px;
+    font-size: 52px;
+    line-height: 64px;
+}
+
+#subText {
+    width: 480px;
+    height: 32px;
+    font-size: 18px;
+    margin: auto;
+    line-height: 32px;
+}
+
+.menuButton {
+    margin: auto;
+    margin-top: 92px;
+    width: 251px;
+    height: 64px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    gap: 10px;
+    border-radius: 4px;
+    border-color: var(--backgroundGray);
+    background: var(--backgroundGray);
+}
+
+.secondBlock {
+    background: #FFF;
+    width: 100%;
+    height: 969px;
+}
+
+.howItWorks {
+    text-align: center;
+    margin: auto;
+    width: 1216px;
+    height: 281px;
+}
+
+.nameBlock {
+    font-size: 40px;
+    color: var(--textBlack);
+    line-height: 56px;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 57px;
+}
+
+.group91 {
+    display: flex;
+}
+
+.subGroup91 {
+    text-align: left;
+    width: 280px;
+    height: 164px;
+    flex-shrink: 0;
+    margin-right: 32px;
+}
+
+.nameGroup91 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--textBlack);
+}
+
+.textGroup91 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--textGray);
+}
+
+.secBlock2 {
+    padding-top: 80px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 1216px;
+    height: 448px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.nameTextBlock2 {
+    margin-top: 80px;
+    text-align: left;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    color: var(--textBlack);
+    margin-bottom: 18px;
+}
+
+.textGroup91 {
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--textGray);
+}
+
+.imgBlock2 {
+    background: url(img/2_2.png);
+}
+
+.reviewsBlock {
+    width: 100%;
+    height: 564px;
+    background: var(--backgroundGray);
+    text-align: center;
+}
+
+.questionsBlock {
+    text-align: center;
+    width: 100%;
+    height: 952px;
+}
+
+.questions {
+    margin: auto;
+    width: 1008px;
+    height: 792px;
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 32px;
+}
+
+.question {
+    font-weight: 600;
+    border-top: 1px solid var(--backgroundGray);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.answer {
+    font-weight: 400;
+}
+
+summary {
+    list-style-type: none;
+}
+
+.slider, .slider1 {
+    float: right;
+}
+
+.pollsBlock {
+    align-items: center;
+    width: 100%;
+    height: 662px;
+    background: var(--backgroundGray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pollsUp, .pollsDown {
+    display: flex;
+    width: 1216px;
+    height: 245px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.pollsH1 {
+    margin-right: 32px;
+    width: 592px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: var(--textBlack);
+}
+
+.pollsText {
+    width: 592px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    color: var(--textGray);
+}
+
+.sendForm {
+    width: 100%;
+    height: 418px;
+    text-align: center;
+}
+
+.formBlock  {
+    margin: auto;
+    width: 800px;
+    height: 258px;
+    flex-shrink: 0;
+}
+
+.nameForm, .phoneForm {
+    width: 352px;
+    height: 32px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--textGray);
+    background: var(--backgroundGray);
+    margin-right: 32px;
+    border-radius: 4px;
+    border: 2px solid var(--backgroundGray)
+}
+
+.formInput {
+    display: flex;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+
+.checkSend {
+    margin-top: 30px;
+    display: flex;
+    width: 384;
+}
+
+.flag {
+    width: 384px;
+    height: 28px;
+    text-align: left;
+}
+
+.sendingForm {
+    margin-left: 32px;
+    width: 384px;
+    height: 64px;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border-color: rgba(42, 108, 234, 1);
+    background: rgba(42, 108, 234, 1);
+    color: var(--textWhite);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+label {
+    color: var(--textBlack);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 32px;
+}
+
+.footer {
+    width: 100%;
+    height: 87px;
+    background: var(--backgroundGray);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerText {
+    color: var(--textBlack);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+/* Reviews style */
+
+.scrollReview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll {
+    width: 8px;
+    height: 8px;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 32px;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 22px 22px 62px 22px;
+    width: 341px;
+    height: 316px;
+    border-radius: 8px;
+    background: var(--textWhite);
+    box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.10);
+    text-align: left;
+}
+
+.phName {
+    display: flex;
+}
+
+.nameCity {
+    margin-right: 22px;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    margin-right: 16px;
+}
+
+.nameReview {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--textBlack);
+    margin-right: 22px;
+    width: 237px;
+}
+
+.cityReview {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--textGray);
+    margin-bottom: 20px;
+    margin-right: 22px;
+    
+}
+
+.textReview {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--textBlack);
+}
